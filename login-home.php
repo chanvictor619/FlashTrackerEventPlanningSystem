@@ -19,6 +19,7 @@ if(!$fgmembersite->CheckLogin())
 <div id='fg_membersite_content'>
 <h2>Home Page</h2>
 Welcome back <?= $fgmembersite->UserFullName(); ?>!
+<iframe src="https://calendar.google.com/calendar/embed?src=cs532group%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 <p><a href='change-pwd.php'>Change password</a></p>
 
