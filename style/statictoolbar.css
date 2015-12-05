@@ -1,0 +1,31 @@
+
+.selector
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav {
+    margin-top: 20px;
+    height: 40px;
+    background: #a7e0ee;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+}
+.nav ul li a:hover {
+    color: white;
+}

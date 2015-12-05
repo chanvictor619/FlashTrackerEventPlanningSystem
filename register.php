@@ -23,6 +23,7 @@ if(isset($_POST['submitted']))
 <body>
 
 <!-- Form Code Start -->
+<center>
 <div id='fg_membersite'>
 <form id='register' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
@@ -64,6 +65,7 @@ if(isset($_POST['submitted']))
 
 </fieldset>
 </form>
+</center>
 <!-- client-side Form Validations:
 Uses the excellent form validation script from JavaScript-coder.com-->
 

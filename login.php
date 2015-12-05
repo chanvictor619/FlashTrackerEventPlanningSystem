@@ -16,13 +16,16 @@ if(isset($_POST['submitted']))
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Login</title>
       <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
+
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
 <body>
 
 <!-- Form Code Start -->
 <center>
-<div id='fg_membersite'>
+<div class = loginwidget>
+
+<p><div id='fg_membersite'>
 <form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
 <legend>Login</legend>
@@ -49,6 +52,8 @@ if(isset($_POST['submitted']))
 <div class='short_explanation'><a href='reset-pwd-req.php'>Forgot Password?</a></div>
 </fieldset>
 </form>
+</p>
+</div>
 </center>
 <!-- client-side Form Validations:
 Uses the excellent form validation script from JavaScript-coder.com-->
