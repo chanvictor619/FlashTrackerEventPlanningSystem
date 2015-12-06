@@ -16,10 +16,28 @@ if(isset($_POST['submitted']))
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Login</title>
       <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
+      <link rel="stylesheet" type="text/css" href="../style/style.css" />
 
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
 <body>
+  <div class="header">
+            <div class="headerContent">
+                <a href="#">
+                    <img src="../images/flashtrackerlogo.png" alt="Flash Tracker Logo" title="Flash Tracker" />
+                </a>
+                <div class="nav">
+                    <ul>
+                        <li><a href='access-controlled.php'>Home</a></li>
+                        <li><a href='register.php'>Register</a></li>
+                        <li><a href='confirmreg.php'>Confirm Register</a></li>
+                        <li><a href='login.php'>Login</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="headerBreak"></div>
+        </div>
 
 <!-- Form Code Start -->
 <center>

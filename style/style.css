@@ -5,11 +5,11 @@ body {
 .header {
     width: 100%;
     height: auto;
-    background-color: #eef3f5;
     padding-top: 24px;
 }
 .headerContent {
     width: 1024px;
+    background:#F2F2F2;
     height: auto;
     margin: 0 auto;
 }

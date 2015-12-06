@@ -24,11 +24,33 @@ if(isset($_POST['submitted']))
       <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
       <link rel="STYLESHEET" type="text/css" href="style/pwdwidget.css" />
-      <script src="scripts/pwdwidget.js" type="text/javascript"></script>       
+      <script src="scripts/pwdwidget.js" type="text/javascript"></script> 
+      <link rel="STYLESHEET" type="text/css" href="style/style.css">      
 </head>
 <body>
 
+  <div class="header">
+    <div class="headerContent">
+      <a href="#">
+        <img src="../images/flashtrackerlogo.png" alt="Flash Tracker Logo" title="Flash Tracker" />
+      </a>
+
+
+      <div class="nav">
+        <ul>
+          <li><a href='index.php'>Home</a></li>
+          <li><a href='employeeschedule.html'>Calendar</a></li>
+          <li><a href='https://docs.google.com/forms/d/1Yd5T3oQufl7ajiVbu8a4SyIAJocdBVXA1-7iRBdu_Y0/viewform' target="_blank" >Add an event</a><li>
+            <li><a href='access-controlled.php'>Order Forms</a></li>
+            <li><a href='change-pwd.php'>Change password</a></li>
+            <li><a href='logout.php'>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 <!-- Form Code Start -->
+<center>
 <div id='fg_membersite'>
 <form id='changepwd' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
@@ -95,6 +117,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 </p>
 
 </div>
+</center>
 <!--
 Form Code End (see html-form-guide.com for more info.)
 -->
